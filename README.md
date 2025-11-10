@@ -110,9 +110,9 @@ P-value (0.0917): This is the probability of observing a test statistic as extre
 
 Significance Level (often 0.05): This is the threshold set before the test is conducted to decide whether to reject the null hypothesis. It is the maximum probability of making a Type I error (rejecting a true null hypothesis) that you are willing to accept. 
 
-If p-value \(\le \alpha \), the result is statistically significant, and you reject the null hypothesis.
+If p-value (p < 0.05) , the result is statistically significant, and you reject the null hypothesis.
 
-If p-value \(>\alpha \), the result is not statistically significant, and you fail to reject the null hypothesis. 
+If p-value (p >= 0.05) , the result is not statistically significant, and you fail to reject the null hypothesis. 
 
 
 # Results Interpretation
@@ -184,7 +184,8 @@ A/B result (primary business conclusion): No statistically significant differenc
 Model conclusion: Predictive models trained on campaign-level features did not substantially outperform simple baselines for conversion rate — indicating that campaign-level aggregation may hide user-level signals required for strong prediction.
 
 
-<img width="700" height="547" alt="image" src="https://github.com/user-attachments/assets/a60a0ba6-ea7c-4615-aab0-ff82c42d4ff2" />
+<img width="700" height="547" alt="image" src="https://github.com/user-attachments/assets/f111bed9-1087-4e22-8fcf-d3c1ce081d25" />
+
 
 
 # Dashboards
